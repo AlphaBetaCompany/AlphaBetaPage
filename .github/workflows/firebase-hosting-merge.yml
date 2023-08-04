@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: FirebaseExtended/action-hosting-deploy@v@
+      - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAcocount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_ALPHABETA_ONE_PAGE_2023 }}'
@@ -16,5 +16,5 @@ jobs:
           projectId: alphabeta-one-page-2023
         env:
           FIREBASE_CLI_PREVIEWS: hostingchannels
-          
+
 
