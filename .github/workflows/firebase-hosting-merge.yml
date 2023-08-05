@@ -11,7 +11,7 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAcocount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_ALPHABETA_ONE_PAGE_2023 }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_ALPHABETA_ONE_PAGE_2023 }}'
           channelId: live
           projectId: alphabeta-one-page-2023
         env:
