@@ -1,4 +1,6 @@
 footer{
+    position: absolute;
+    margin-top: 100vh;
     background-color:#171717;
     height: 40vh;
     width: 100%;
@@ -56,4 +58,10 @@ footer{
     font-family: 'Roboto', sans-serif;
     color: #ffc764;
     font-size: 15px;
+}
+
+.logos-redes{
+    margin-inline-start: 1vw;
+    height: 1vw;
+    width: 1vw;
 }

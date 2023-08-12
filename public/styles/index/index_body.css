@@ -1,0 +1,122 @@
+.cont_cuerpo{
+    z-index: 2;
+    margin-top: 20vh;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cuerpo{
+
+    height: 110vh;
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 35vw 5vw 30vw;
+    column-gap: 5vw;
+    grid-template-rows: 55vh 20vh;
+    row-gap: 5vh;
+
+}
+
+.paquetes{
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #ffc764;
+    background-color: #171717;
+    height: 55vh;
+    width: 45vw;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+.productos{
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #ffc764;
+    background-color: #171717;
+    height: 55vh;
+    width: 30vw;
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.whatsapp{
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #ffc764;
+    background-color: #171717;
+    height: 20vh;
+    width: 35vw;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.proyectos{
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #ffc764;
+    background-color: #171717;
+    height: 20vh;
+    width: 40vw;
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
+
+/**/
+
+.paquetes:hover{
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 7px;
+    border-color: #ffc764;
+    background-color: #171717;
+    height: 55vh;
+    width: 45vw;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+.productos:hover{
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 7px;
+    border-color: #ffc764;
+    background-color: #171717;
+    height: 55vh;
+    width: 30vw;
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.whatsapp:hover{
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 7px;
+    border-color: #ffc764;
+    background-color: #171717;
+    height: 20vh;
+    width: 35vw;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.proyectos:hover{
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 7px;
+    border-color: #ffc764;
+    background-color: #171717;
+    height: 20vh;
+    width: 40vw;
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
