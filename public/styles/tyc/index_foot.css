@@ -1,0 +1,72 @@
+footer{
+    position: absolute;
+    margin-top: 100vh;
+    background-color:#171717;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.izq{
+    display: flex;
+    height: 30vh;
+    width: 35vw;
+}
+
+.izq img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vw;
+    width: 15vw;
+}
+
+.izq h2{
+    font-family: 'Roboto', sans-serif;
+    color: #ffc764;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vw;
+    width: 15vw;
+}
+
+.der{
+    display: flex;
+    justify-content: flex-end;
+    height: 20vh;
+    width: 35vw;
+}
+
+.der ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.der ul li{
+    margin-block-end: 3%;
+    list-style: none;
+    text-decoration: none;
+}
+
+.der ul li a{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #ffc764;
+    font-size: 15px;
+}
+
+.der h1{
+    font-size: 20px
+}
+
+.logos-redes{
+    margin-inline-start: 1vw;
+    height: 1vw;
+    width: 1vw;
+}

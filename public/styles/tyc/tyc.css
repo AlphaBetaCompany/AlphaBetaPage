@@ -1,0 +1,15 @@
+.cont_tyc{
+    z-index: 2;
+    margin-top: 10vh;
+    position: absolute;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tyc{
+    height: auto;
+    width: 50vw;
+}
