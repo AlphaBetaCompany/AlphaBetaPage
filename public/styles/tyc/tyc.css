@@ -1,8 +1,9 @@
 .cont_tyc{
+    font-family: 'Montserrat', sans-serif;;
     z-index: 2;
     margin-top: 10vh;
     position: absolute;
-    height: 90vh;
+    height: 120vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -11,5 +12,5 @@
 
 .tyc{
     height: auto;
-    width: 50vw;
+    width: 70vw;
 }
