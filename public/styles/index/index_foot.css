@@ -61,8 +61,16 @@ footer{
     font-size: 15px;
 }
 
+.der ul li a:hover{
+    font-size: 17px;
+}
+
 .der h1{
     font-size: 20px
+}
+
+.der h1:hover{
+    font-size: 24px;
 }
 
 .logos-redes{

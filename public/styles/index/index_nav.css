@@ -3,6 +3,94 @@
     margin: 0;
 }
 
+button{
+    background-color: #171717;
+    border: none;
+}
+
+#icon1{
+    transition: 1s;
+    height: 3vw;
+    width: 3vw;
+    background-color: #171717;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+
+#icon1:hover{
+    transition: 0.5s;
+    animation: normal;
+    background-color: #ffc764;
+}
+
+#icon2{
+    transition: 1s;
+    height: 3vw;
+    width: 3vw;
+    background-color: #171717;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+
+#icon2:hover{
+    transition: 0.5s;
+    animation: normal;
+    background-color: #ffc764;
+}
+
+#icon3{
+    transition: 1s;
+    height: 3vw;
+    width: 3vw;
+    background-color: #171717;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+
+#icon3:hover{
+    transition: 0.5s;
+    animation: normal;
+    background-color: #ffc764;
+}
+
+#icon4{
+    transition: 1s;
+    height: 3vw;
+    width: 3vw;
+    background-color: #171717;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+
+#icon4:hover{
+    transition: 0.5s;
+    animation: normal;
+    background-color: #ffc764;
+}
+
+.iconsNosotros{
+    transition: 0.5s;
+    fill: #ffc764;
+}
+
+.iconsNosotros:hover{
+    transition: 0.5s;
+    fill: #171717;
+}
+
+
 nav{
     z-index: 3;
     margin-top: 0;
@@ -33,16 +121,16 @@ nav{
 }
 
 .menu{
-    height: 5vw;
+    height: 5vw;    
     width: 35vw;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
-    
+    align-items: center;  
 }
 
 ul{
     width: 60%;
+    display: flex;
 }
 
 .menu ul{
@@ -50,4 +138,12 @@ ul{
     justify-content: space-around;
     text-decoration: none;
     list-style: none;
+}
+
+.menu ul LI{
+    display: flex;
+    align-items: center ;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffc764;
+    font-size: x-small;
 }
